@@ -10,6 +10,7 @@ Group: Applications/Multimedia
 Source0: https://github.com/khenriks/mp3fs/releases/download/v%{version}/mp3fs-%{version}.tar.gz
 #Patch0: mp3fs.patch
 URL: http://khenriks.github.com/mp3fs/
+# While mp3fs does encode to MP3, it is a consumer, not a provider
 #Provides: mp3encoder
 # While mp3fs does not strictly require the fuse cli (which does not provide
 # the fuse libraries), mp3fs is fairly useless without it.
