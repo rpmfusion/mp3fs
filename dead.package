@@ -1,0 +1,3 @@
+Lame and lame-devel have been moved to Fedora since the mp3 patent has
+expired.  Accordingly, I have added the mp3fs package to Fedora, and
+it is in rawhide, and batched for stable on f28,f27,el7,el6.  
